@@ -14,6 +14,6 @@ router.delete('/tarefa/:id', Tarefa.remove);
 
 router.post('/turma', Turma.createTurma);
 router.get('/turma', Turma.read);
-router.delete('/turma', Turma.remove);
+router.delete('/turma/:id', Turma.remove);
 
 module.exports = router;
