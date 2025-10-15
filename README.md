@@ -22,3 +22,7 @@ npm i
 npx prisma migrate dev --name init
 npx nodemon server.js
 ```
+## Print Screen
+![der](./docs/der.png)
+![uml](./docs/uml.png)
+
